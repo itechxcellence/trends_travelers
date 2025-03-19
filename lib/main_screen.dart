@@ -1,4 +1,3 @@
-import 'dart:io' show Platform;
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 import 'pages/encashments_page.dart';
@@ -26,7 +25,7 @@ class _MainScreenState extends State<MainScreen> {
         const HomePage(),
         const EncashmentsPage(),
         const ReferralsPage(),
-        ProfilePage(),
+        const ProfilePage(),
       ];
 
   void _onItemTapped(int index) {
